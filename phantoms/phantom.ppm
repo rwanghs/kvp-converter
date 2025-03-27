@@ -1,0 +1,52 @@
+materialList = {'water' 'ncat_blood' 'water_20C_iodine_5mg' 'blood_water_2.5mg_iodine'}
+
+object.center(1,:) = [0.000000 0.000000 0.000000];
+object.half_axes(1,:) = [150.000000 150.000000 10.000000];
+object.euler_angs(1,:) = [0.000000 0.000000 0.000000];
+object.density(1) = 1.000000;
+object.type(1) = 2;
+object.material(1) = 1;
+object.axial_lims(1,:) = [0.0 0.0];
+object.shape(1) = 0;
+object.clip{1} = [];
+
+object.center(2,:) = [100.000000 0.000000 0.000000];
+object.half_axes(2,:) = [30.000000 30.000000 30.000000];
+object.euler_angs(2,:) = [0.000000 0.000000 0.000000];
+object.density(2) = 1.000000;
+object.type(2) = 2;
+object.material(2) = 1;
+object.axial_lims(2,:) = [0.0 0.0];
+object.shape(2) = 0;
+object.clip{2} = [];
+
+object.center(3,:) = [0.000000 100.000000 0.000000];
+object.half_axes(3,:) = [30.000000 30.000000 30.000000];
+object.euler_angs(3,:) = [0.000000 0.000000 0.000000];
+object.density(3) = 1.000000;
+object.type(3) = 2;
+object.material(3) = 2;
+object.axial_lims(3,:) = [0.0 0.0];
+object.shape(3) = 0;
+object.clip{3} = [];
+
+object.center(4,:) = [-100.000000 0.000000 0.000000];
+object.half_axes(4,:) = [30.000000 30.000000 30.000000];
+object.euler_angs(4,:) = [0.000000 0.000000 0.000000];
+object.density(4) = 1.000000;
+object.type(4) = 2;
+object.material(4) = 3;
+object.axial_lims(4,:) = [0.0 0.0];
+object.shape(4) = 0;
+object.clip{4} = [];
+
+object.center(5,:) = [0.000000 -100.000000 0.000000];
+object.half_axes(5,:) = [30.000000 30.000000 30.000000];
+object.euler_angs(5,:) = [0.000000 0.000000 0.000000];
+object.density(5) = 1.000000;
+object.type(5) = 2;
+object.material(5) = 4;
+object.axial_lims(5,:) = [0.0 0.0];
+object.shape(5) = 0;
+object.clip{5} = [];
+
